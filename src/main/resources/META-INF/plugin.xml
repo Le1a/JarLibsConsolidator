@@ -8,7 +8,7 @@
     <name>JarLibsConsolidator</name>
 
     <!-- 设置兼容版本范围 -->
-    <idea-version since-build="241" until-build="251.*"/>
+    <idea-version since-build="223" until-build="253.*"/>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="le1a.github.io@gmail.com" url="https://le1a.github.io/">Le1a</vendor>

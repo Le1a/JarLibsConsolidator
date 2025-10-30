@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "org.le1a"
-version = "1.0"
+version = "1.1"
 
 repositories {
     mavenCentral()
@@ -39,8 +39,8 @@ tasks {
     }
 
     patchPluginXml {
-        sinceBuild.set("241")
-        untilBuild.set("251.*")
+        sinceBuild.set("223")
+        untilBuild.set("253.*")
     }
 
     signPlugin {

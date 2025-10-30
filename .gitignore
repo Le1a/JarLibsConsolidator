@@ -45,3 +45,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### 其他 ###
+GEMINI.md
