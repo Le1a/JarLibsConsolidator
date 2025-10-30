@@ -51,20 +51,22 @@ ls gradle-8.11.1-bin.zip
 **注意**：该文件已被 `.gitignore` 排除，不会被提交到版本控制中。
 
 ### 快速上手
-1) 本地运行（开发/体验）
+1) **插件已上传至JetBrains Marketplace，可直接在IDEA插件市场搜索JarLibsConsolidator进行安装**
+
+2) 本地运行（开发/体验）
 
 ```bash
 ./gradlew runIde
 ```
 
-2) 打包安装（生成可安装的 zip）
+3) 打包安装（生成可安装的 zip）
 
 ```bash
 ./gradlew buildPlugin
 # 产物：build/distributions/JarLibsConsolidator-<version>.zip
 # IDE 中安装：Settings/Preferences → Plugins → ⚙ → Install Plugin from Disk…
 ```
-**或者直接用Releases里我打包好的jar包，在IDEA插件选择本地磁盘安装即可。**
+或者直接用Releases里我打包好的jar包，在IDEA插件选择本地磁盘安装即可。
 
 ### 使用
 - 在 Project 视图中右键项目根目录或任意目录 → 选择“**一键添加依赖**”。
